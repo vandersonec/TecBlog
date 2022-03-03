@@ -1,0 +1,107 @@
+body{
+    background: #dddddd;
+}
+/* Cabeçalho e menu*/
+#topo{
+    width: 100%;
+    background-color: rgb(255, 180, 0);
+    padding: 1.5rem 0 3rem 0;
+}
+#topo h1, span{
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+#topo span, .menu a{
+    color: white;
+    text-decoration: none;
+}
+.menu ul{
+    text-align: center;
+}
+.menu ul li{
+    display: inline;
+    align-items: center;
+}
+.menu ul li a{
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+}
+.menu ul li a:hover{
+    background-color: white;
+    color: rgb(255, 180, 0);
+    font-weight: 700;
+    border-radius: 1rem 0;
+}
+main{
+    width: 900px;
+    margin: 0 auto;
+}
+#corpo-principal{
+    display: flex;
+}
+.container-secao{
+    width: 650px; 
+}
+.artigos{
+    padding: 1rem;
+    margin: 1rem 0;
+    background: white;
+}
+.artigos h2{
+    color: rgb(255, 180, 0);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.artigos h3{
+    color: rgb(0, 0, 0);
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+.artigos figure{
+    border-top: 1px solid rgba(0, 0, 0, 0.151);
+    padding-top: 0.5rem;
+}
+.artigos figure figcaption p{
+    text-align: justify;
+    margin: 1rem 0;
+}
+.artigos figure a, .postagem a, .menu-categorias a{
+    color: rgb(255, 180, 0);
+    text-decoration: none;
+}
+.artigos figure a:hover, .postagem a:hover, .menu-categorias a:hover{
+    color: rgb(255, 145, 0);
+    text-decoration: underline;
+    font-weight: bold;
+}
+.container-secaoSecundaria{
+    background: white;
+    width: 300px;
+    padding: 1rem;
+    margin: 1rem 0 1rem 1rem;
+    height: 100%;
+}
+.categorias .titulo-secundario, .container-secaoSecundaria .postagem .titulo-secundario{
+    background: rgb(185, 185, 185);
+}
+.container-secaoSecundaria p{
+    border-bottom: 1px solid #d2d2d2;
+    padding: 0.5rem 0;
+}
+.titulo-secundario h2{
+    font-size: 1.12rem;
+    font-weight: bold;
+    padding: 0.3rem;
+    margin-bottom: 0.5rem;
+}
+.rodape{
+    background: rgb(255, 180, 0);
+    padding: 2rem;
+}
+.rodape p{
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+}
